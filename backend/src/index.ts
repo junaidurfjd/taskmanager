@@ -2,9 +2,11 @@ import 'reflect-metadata';
 import express from 'express';
 import { AppDataSource } from './data-source';
 import taskRoutes from './routes/taskRoutes';
+import dotenv from 'dotenv';
 
+dotenv.config();
 const app = express();
-const PORT = 3000;
+const PORT = process.env.BACKEND_PORT || 8080;
 
 app.use(express.json());
 

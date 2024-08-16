@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  margin-right: 10px;
+}
+
+button {
+  margin-right: 5px;
+}
